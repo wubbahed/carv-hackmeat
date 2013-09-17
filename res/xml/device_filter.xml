@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <usb-device vendor-id="24726" product-id="344" />
+</resources>
+
+<!-- 
+
+		Product ID: 0x0158
+          Vendor ID: 0x6096
+          Version:  1.00
+          Serial Number: 0001026108481
+          Speed: Up to 1.5 Mb/sec
+          Manufacturer: SANFORD
+          Location ID: 0x04100000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 64
+
+
+Byte 0 = Report ID (3 is the standard for scale data
+input reports)
+Byte 1 = Scale Status
+1 = Fault
+2 = Stable at Zero
+3 = In Motion
+4 = Stable
+5 = Under Zero
+6 = Over Weight
+7 = Requires Calibration
+8 = Requires Re-zeroing
+Byte 2 = Weight Unit
+…
+
+2 = grams
+11 = ounces
+12 = pounds
+Byte 3 = Data Scaling (This is the exponent that you
+raise 10 by to get the decimal
+placement)
+Byte 4 = Weight LSB (least significant byte)
+Byte 5 = Weight MSB (most significant byte)
+
+
+
+ -->

@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:textSize="@dimen/big_font"
+        android:textStyle="bold"
+        android:text="Place item on the scale" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:padding="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ground Beef" />
+            <Button
+                android:id="@+id/button2"
+                android:padding="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ribeye" />
+            <Button
+                android:id="@+id/button3"
+                android:padding="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="London Broil" />
+            <Button
+                android:id="@+id/button4"
+                android:padding="40dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Top Round" />
+
+    </LinearLayout>
+
+</RelativeLayout>
